@@ -7,7 +7,7 @@ Qualquer animação produzida em javaScript pode ser colocada como wallpaper na 
 </div> 
 
 <p align="center">
-  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/Grava%C3%A7%C3%A3o-de-tela-de-10-01-2023-00_37_01.gif" alt="animated"  />
+  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o-de-tela-de-10-01-2023-00_37_01.gif" alt="animated"  />
 </p>
 
 
