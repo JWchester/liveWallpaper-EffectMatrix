@@ -74,7 +74,7 @@ Figura 3 - Preenchendo com as informações </div>
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-18.png" width = 800px /> 
 	
-Figura 4 - COnfigurando o wallpaper na tela </div>
+Figura 4 - Configurando o wallpaper na tela </div>
 </br>
 
 <div align = "center">
