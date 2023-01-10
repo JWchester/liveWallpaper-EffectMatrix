@@ -44,10 +44,52 @@ Em seguida crie o seu próprio repositório e adicione esses arquivos </br>
   
   
 ### 2. hospedá-lo com github pages
-  
-<div align = "center"
-	<img  align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2011-32-37.png" width = 500px  /></a>
-<p   
-Figura 2 - página do repositório ativa pelo github pages
-</p></div>
+	
+<div align = "center">
+<img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2011-32-37.png" width = 500px /> 
+	
+Figura 2 - site do repositório ativo pelo github pages </div>
+	
+	
+</br>
+
+Ativando o github pages para o seu repsitório será possível gerar uma página online assim como esse: [Effect Matrix](https://jwchester.github.io/Live_Wallpaper-Effect-Matrix/)
+
+### 3. ativar wallpaper com komorebi
+
+Após a instalação do komorebi deve-se abrir o  `Komorebi Wallpaper Creator` para adicionar sua animação em javaScript como wallpaper do seu desktop.</br>
+ao abrir:
+* determine nome do seu novo wallpaper
+* determine o tipo do wallpaper `a web page` e adicione o link da  pagina da web hospedado no github pages com sua animação
+* determine uma imagem como capa da sua animação
+
+observe os passos nas iamgens a seguir:
+
+<div align = "center">
+<img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-12.png" width = 800px /> 
+	
+Figura 3 - Preenchendo com as informações </div>
+</br>
+	
+<div align = "center">
+<img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-18.png" width = 800px /> 
+	
+Figura 4 - COnfigurando o wallpaper na tela </div>
+</br>
+
+<div align = "center">
+<img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-25.png" width = 800px /> 
+	
+Figura 5 - configurações salvas </div>
+</br>
+
+Agora deve-se executar no terminal linux o comando fornecido na Figura 5. Ele adicionará o wallpaper criado para a lista de wallpapers do komorebi. </br>
+
+feito isso agora abra o `Komorebi`. ao tentar abrí-lo ele estará funcionando no desktop do seu computador. dessa forma, clica-se com o botão direito em seu desktop e seleciona a opção `change wallpaper` feito isso seleciona o walppaper que você havia criado. agora, basta apreciar sua criação na tela do seu desktop :)
+
+
+
+
+
+
 
