@@ -29,9 +29,25 @@ instale o [komorebi](https://github.com/cheesecakeufo/komorebi) a partir do repo
 ## Como usar wallpaper a partir do código javaScript
 Considerando que o usuário tem uma animação própria produzida e deseja usá-la como wallpaper então deve-se executar os seguintes passos.
 
-1. colocar o projeto produzido em um repositório do github
-3. hospedá-lo com github pages(assim como foi feito com esse repositório, pois é uma hospedagem gratuita)
-4. criar wallpaper para área de trabalho usando link da pagina no komorebi
-
-(em desenvolvimento)
+###  1. colocar o projeto produzido em um repositório do github
+<div align = "center">
+<figure>
+	<img align = "left" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2010-36-17.png" width = 1000px  />
+	 <figcaption>  Figura 1 - Repositório do github </div> <br/>
+  
+Caso deseje fazer o upload desse reposítório como base, utilize o comando no seu terminal linux para baixar o repositório para seu computador:
+```
+git clone https://github.com/JWchester/Live_Wallpaper-Effect-Matrix.git
+```
+Em seguida crie o seu próprio repositório e adicione esses arquivos </br>
+  
+  
+  
+### 2. hospedá-lo com github pages
+  
+<div align = "center"
+	<img  align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2011-32-37.png" width = 500px  /></a>
+<p   
+Figura 2 - página do repositório ativa pelo github pages
+</p></div>
 
