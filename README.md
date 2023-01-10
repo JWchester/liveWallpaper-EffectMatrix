@@ -31,7 +31,7 @@ Considerando que o usuário tem uma animação própria produzida e deseja usá-
 
 1. colocar o projeto produzido em um repositório do github
 3. hospedá-lo com github pages(assim como foi feito com esse repositório, pois é uma hospedagem gratuita)
-4. criar wallpaper para área de trabalno usando link da pagina no komorebi
+4. criar wallpaper para área de trabalho usando link da pagina no komorebi
 
 (em desenvolvimento)
 
