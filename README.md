@@ -85,7 +85,7 @@ Figura 5 - configurações salvas </div>
 
 Agora deve-se executar no terminal linux o comando fornecido na Figura 5. Ele adicionará o wallpaper criado para a lista de wallpapers do komorebi. </br>
 
-feito isso agora abra o `Komorebi`. ao tentar abrí-lo ele estará funcionando no desktop do seu computador. dessa forma, clica-se com o botão direito em seu desktop e seleciona a opção `change wallpaper` feito isso seleciona o walppaper que você havia criado. agora, basta apreciar sua criação na tela do seu desktop :)
+feito isso, abra o `Komorebi`. ao abrí-lo ele estará funcionando no desktop do seu computador. dessa forma, clica-se com o botão direito em seu desktop e seleciona a opção `change wallpaper` feito isso seleciona o walppaper que você havia criado. agora, basta apreciar sua criação na tela do seu desktop :)
 
 
 
