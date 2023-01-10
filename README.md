@@ -12,7 +12,7 @@ Qualquer animação produzida em javaScript pode ser colocada como wallpaper na 
 
 
 <div align = "center">
-Gif Efeito Matrix
+Gif - Efeito Matrix
 </a></div>
 
 
@@ -88,6 +88,13 @@ Agora deve-se executar no terminal linux o comando fornecido na Figura 5. Ele ad
 feito isso, abra o `Komorebi`. ao abrí-lo ele estará funcionando no desktop do seu computador. dessa forma, clica-se com o botão direito em seu desktop e seleciona a opção `change wallpaper` feito isso seleciona o walppaper que você havia criado. agora, basta apreciar sua criação na tela do seu desktop :)
 
 
+<p align="center">
+  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o%20de%20tela%20de%2010-01-2023%2013_04_22%20(online-video-cutter.com).gif" alt="animated"  />
+</p>
+
+<div align = "center">
+Gif - Efeito Matrix
+</a></div>
 
 
 
