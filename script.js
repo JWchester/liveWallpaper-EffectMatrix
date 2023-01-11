@@ -44,12 +44,7 @@ class Effect {
         }
 
     }
-    resize(width, height){
-        this.canvasWidth = width;
-        this.canvasHeight = height;
-        this.columns = this.canvasWidth/this.fontSize;
-        this.symbols = [];
-        this.#initialize();
+    
     }
 }
 
@@ -78,10 +73,3 @@ function animate(timeStamp){
 }
 
 animate(0);
-
-window.addEventListener('resize', function(){
-    canvasWidth=this.window.innerHeight;
-    canvas.height = window.innerHeight;
-    effect.resize(canvas.width,canvas.height);
-    
-});
