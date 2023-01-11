@@ -30,7 +30,7 @@ class Effect {
     constructor(canvasWidth, canvasHeight){
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
-        this.fontSize = 50;
+        this.fontSize = 20;
         this.columns = this.canvasWidth/this.fontSize;
         this.symbols = [];
         this.#initialize();
@@ -44,8 +44,7 @@ class Effect {
         }
 
     }
-    
-    }
+  
 }
 
 const effect = new Effect(canvas.width,canvas.height);
@@ -73,3 +72,6 @@ function animate(timeStamp){
 }
 
 animate(0);
+
+
+    
