@@ -18,7 +18,7 @@ window.onload = function() {
             neo.getContext("2d").fillStyle = "rgba(0,0,0,.05)";
             neo.getContext("2d").fillRect(0, 0, width, height);
 
-            neo.getContext("2d").fillStyle = "#F00";
+            neo.getContext("2d").fillStyle = "#0F0";
 
             letters.map(function (position_y, index) {
 
