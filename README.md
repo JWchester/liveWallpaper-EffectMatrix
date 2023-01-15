@@ -57,43 +57,43 @@ Enabling github pages for your repository will be able to generate an online pag
 
 ### 3. activate wallpaper with komorebi
 
-Após a instalação do komorebi deve-se abrir o  `Komorebi Wallpaper Creator` para adicionar sua animação em javaScript como wallpaper do seu desktop.</br>
-ao abrir:
-* determine nome do seu novo wallpaper
-* determine o tipo do wallpaper `a web page` e adicione o link da  pagina da web hospedado no github pages com sua animação
-* determine uma imagem como capa da sua animação
+After installing komorebi, open the `Komorebi Wallpaper Creator` to add your JavaScript animation as your desktop wallpaper.</br>
+when opening:
+* determine name of your new wallpaper
+* determine the wallpaper type `a web page` and add the link of the web page hosted on github pages with your animation
+* assign an image as the cover of your animation
 
-observe os passos nas iamgens a seguir:
+observe the steps in the following images:
+
 
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-12.png" width = 800px /> 
 	
-Figura 3 - Preenchendo com as informações </div>
+Figura 3 - Filling in the information </div>
 </br>
 	
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-18.png" width = 800px /> 
 	
-Figura 4 - Configurando o wallpaper na tela </div>
+Figura 4 - Setting the screen wallpaper </div>
 </br>
 
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202023-01-10%2012-28-25.png" width = 800px /> 
 	
-Figura 5 - configurações salvas </div>
+Figura 5 - Saved settings </div>
 </br>
 
-Agora deve-se executar no terminal linux o comando fornecido na Figura 5. Ele adicionará o wallpaper criado para a lista de wallpapers do komorebi. </br>
+Now you must run the command provided in Figure 5 in the linux terminal. It will add the wallpaper created to the list of komorebi wallpapers. </br>
 
-feito isso, abra o `Komorebi`. ao abrí-lo ele estará funcionando no desktop do seu computador. dessa forma, clica-se com o botão direito em seu desktop e seleciona a opção `change wallpaper` feito isso seleciona o wallpaper que você havia criado. agora, basta apreciar sua criação na tela do seu desktop :)
-
+done, open `Komorebi`. when you open it, it will be running on your computer's desktop. that way, right-click on your desktop and select the `change wallpaper` option, and then select the wallpaper you had created. now, just enjoy your creation on your desktop screen :)
 
 <p align="center">
   <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o%20de%20tela%20de%2010-01-2023%2013_04_22%20(online-video-cutter.com).gif" alt="animated"  />
 </p>
 
 <div align = "center">
-Gif - Efeito Matrix
+Gif - Matrix Effect
 </a></div>
 
 
