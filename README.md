@@ -24,7 +24,7 @@ Gif - Matrix Effect
 It is an open source software used to reproduce animated wallpapers. One of the options it has is to get wallpaper from web pages. this will be the resource used to reproduce the html code. <br>
 using this option to use a page's wallpaper, komorebi will copy the source code of the web page and reproduce it on the desktop as if it were a terminal. in this way one sees the effect as shown above.</br></br>
 
-install [komorebi](https://github.com/cheesecakeufo/komorebi) from the official repository.
+install [komorebi](https://github.com/cheesecakeufo/komorebi/releases/download/v2.1/komorebi-2.1-64-bit.deb) from the official repository.
 
 ## How to use wallpaper from javascript code
 Considering that the user has his own animation produced and wants to use it as wallpaper, then the following steps must be performed
