@@ -3,10 +3,10 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-let backgroundImage = new Image();
-backgroundImage.src = 'KaliS.png';
+const backgroundImage = new Image();
+backgroundImage.src = 'KaliR2.png';
 
-const backgroundImageOpacity = 0.025;
+const backgroundImageOpacity = 0.02;
 
 class Symbol {
     constructor(x, y, fontSize, canvasHeight) {
@@ -16,15 +16,15 @@ class Symbol {
         this.fontSize = fontSize;
         this.text = '';
         this.canvasHeight = canvasHeight;
-        this.color = '#727272';
+        this.color = '#ff0000';
     }
 
     draw(context) {
         this.text = this.characters.charAt(Math.floor(Math.random() * this.characters.length));
-
+        
         context.fillStyle = this.color;
         context.fillText(this.text, this.x * this.fontSize, this.y * this.fontSize);
-
+        
         if (this.y * this.fontSize > this.canvasHeight && Math.random() > 0.95) {
             this.y = 0;
         } else {
@@ -37,7 +37,7 @@ class Effect {
     constructor(canvasWidth, canvasHeight) {
         this.canvasWidth = canvasWidth;
         this.canvasHeight = canvasHeight;
-        this.fontSize = 12;
+        this.fontSize = 11;
         this.columns = this.canvasWidth / this.fontSize;
         this.symbols = [];
         this.initialize();
@@ -59,51 +59,8 @@ class Effect {
 
 const effect = new Effect(canvas.width, canvas.height);
 let lastTime = 0;
-let fps = 45; 
-let interval = 1000 / fps;
-let colorChangeInterval = 10000; 
-let lastColorChangeTime = 0;
-
-function getRandomColor() {
-    const coresHex = ["#ff0000", "#00ff00", "#0000ff","#727272"];
-    return coresHex[Math.floor(Math.random() * coresHex.length)];
-}
-
-function setCorrespondingBackgroundImage(color) {
-    switch (color) {
-        case '#ff0000':
-            backgroundImage.src = 'KaliR2.png';
-            ctx.fillStyle = 'rgba(0,0,0,0.09)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.textAlign = 'center';
-            
-            
-            break;
-        case '#00ff00':
-            backgroundImage.src = 'KaliG2.png';
-            ctx.fillStyle = 'rgba(0,0,0,0.09)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.textAlign = 'center';
-            
-            
-            break;
-        case '#0000ff':
-            backgroundImage.src = 'KaliB.png';
-            ctx.fillStyle = 'rgba(0,0,0,0.09)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.textAlign = 'center';
-            
-            break;
-        case '#727272':
-            backgroundImage.src = 'KaliS.png';
-            ctx.fillStyle = 'rgba(0,0,0,0.09)';
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-            ctx.textAlign = 'center';
-            
-            break;
-       
-    }
-}
+const fps = 30;
+const interval = 1000 / fps;
 
 function animate(timeStamp) {
     const deltaTime = timeStamp - lastTime;
@@ -115,24 +72,54 @@ function animate(timeStamp) {
     ctx.drawImage(backgroundImage, imageX, imageY);
     ctx.globalAlpha = 1;
 
-    ctx.fillStyle = 'rgba(0,0,0,0.08)';
+    ctx.fillStyle = 'rgba(0,0,0,0.05)';
     ctx.textAlign = 'center';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.fillStyle = '#727272';
+    ctx.fillStyle = '#ff0000';
     ctx.font = effect.fontSize + 'px monospace';
 
     effect.symbols.forEach(symbol => symbol.draw(ctx));
 
-    if (timeStamp - lastColorChangeTime > colorChangeInterval) {
-        const newColor = getRandomColor();
-        effect.changeColumnColor(newColor);
-        setCorrespondingBackgroundImage(newColor);
-        lastColorChangeTime = timeStamp;
-    }
-
-    setTimeout(() => {
-        requestAnimationFrame(animate);
-    }, interval);
+    requestAnimationFrame(animate);
 }
 
 animate(0);
+
+// Reconhecimento de Voz
+const recognition = new webkitSpeechRecognition();
+recognition.lang = 'en-US';
+
+recognition.onresult = function(event) {
+    const color = event.results[0][0].transcript.toLowerCase();
+    console.log('Cor reconhecida:', color);
+    
+    switch (color) {
+        case 'red':
+            effect.changeColumnColor('#ff0000');
+            break;
+        case 'green':
+            effect.changeColumnColor('#00ff00');
+            break;
+        case 'blue':
+            effect.changeColumnColor('#0000ff');
+            break;
+        case 'yellow':
+            effect.changeColumnColor('#ffff00');
+            break;
+        case 'pink':
+            effect.changeColumnColor('#ff00ff');
+            break;
+        default:
+            console.log('Cor não reconhecida.');
+    }
+};
+
+recognition.onerror = function(event) {
+    console.error('Erro no reconhecimento de voz:', event.error);
+};
+
+recognition.onend = function() {
+    recognition.start(); // Reinicia o reconhecimento após terminar
+};
+
+recognition.start();
