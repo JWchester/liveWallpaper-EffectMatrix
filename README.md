@@ -31,7 +31,7 @@ NOTE: the voice command only works on Google Chrome due to the way the code was 
 
 
 
-## Requirements
+## Requirements To Add The Animation On Your Desktop
 </br>
 
 * Hidamari</br>
