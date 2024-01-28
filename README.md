@@ -1,4 +1,4 @@
-# Live Wallpaper - Effect Matrix com javaScript
+# Live Wallpaper - Effect Matrix with JavaScript
 </br>
 
 Any animation produced in JavaScript can be placed as wallpaper on the desktop. The example used was a code produced in javascript that shows the matrix effect.
@@ -12,8 +12,22 @@ Any animation produced in JavaScript can be placed as wallpaper on the desktop. 
 
 
 <div align = "center">
-Gif - Matrix Effect
+Gif - Matrix animation that changes color when issuing a voice command
 </a></div>
+
+##ATUALIZAÇÃO
+</br>
+1. Now the code 'has voice capture'. By enabling microphone usage, you can perform the following voice commands:
+
+* Red
+* Blue
+* Yellow
+* Green
+* Pink
+
+NOTE: the voice command only works on Google Chrome due to the way the code was implemented, using 'webkitSpeechRecognition'.
+
+2. An image was inserted as a backround with a degree of opacity to make the animation interesting.
 
 
 
@@ -87,7 +101,10 @@ Insert the Link of the web page you created with the matrix terminal animation. 
 Gif - Matrix Effect
 </a></div>
 
+NOTE: Voice command does not work for Hidamari due to its limitations. (I am trying to explore an alternative solution)
 
+## CHALLENGE
+Have the image, which is in the backround, be exchanged for another image as soon as the colors of the matrix terminal are changed. Example: when sending the voice command 'pink', the colors of the matrix animation will be changed to pink and the background image will also be changed to another image you choose :)
 
 
 
