@@ -17,7 +17,7 @@ Gif - Matrix animation that changes color when issuing a voice command
 
 ## update
 </br>
-1. Now the code 'has voice capture'. By enabling microphone usage, you can perform the following voice commands:
+1. Now the code `has voice capture`. By enabling microphone usage, you can perform the following voice commands:
 
 * Red
 * Blue
@@ -83,7 +83,7 @@ When opening the application you will see the following screen:
 Figura 3 - Hidamari open  </div>
 </br>
 
-Press the ´Web Page´ option and you will be redirected to the following window:
+Press the `Web Page` option and you will be redirected to the following window:
 	
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202024-01-28%2017-13-21.png" width = 800px /> 
