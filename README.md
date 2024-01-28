@@ -88,10 +88,10 @@ Press the `Web Page` option and you will be redirected to the following window:
 <div align = "center">
 <img align = "center" src = "https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Captura%20de%20tela%20de%202024-01-28%2017-13-21.png" width = 800px /> 
 	
-Figura 4 - Insert the web page that has the desired web animation </div>
+Figura 4 - Insert the web page that has the desired animation </div>
 </br>
 
-Insert the Link of the web page you created with the matrix terminal animation. then press 'enter'. now, just enjoy your creation on your desktop screen :)
+Insert the Link of the web page you created. then press 'enter'. now, just enjoy your creation on your desktop screen :)
 
 <p align="center">
   <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o-de-tela-de-28-01-2024-15_47_34.gif"  />
