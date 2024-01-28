@@ -3,7 +3,6 @@
 
 Any animation produced in JavaScript can be placed as wallpaper on the desktop. The example used was a code produced in javascript that shows the matrix effect.
 
-
 </div> 
 
 <p align="center">
@@ -17,7 +16,8 @@ Gif - Matrix animation that changes color when issuing a voice command
 
 ## update
 </br>
-1. Now the code `has voice capture`. By enabling microphone usage, you can perform the following voice commands:
+
+1. Now the code ` has voice capture `. By enabling microphone usage, you can perform the following voice commands:
 
 * Red
 * Blue
