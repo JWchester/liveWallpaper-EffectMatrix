@@ -89,7 +89,7 @@ Now you must run the command provided in Figure 5 in the linux terminal. It will
 done, open `Komorebi`. when you open it, it will be running on your computer's desktop. that way, right-click on your desktop and select the `change wallpaper` option, and then select the wallpaper you had created. now, just enjoy your creation on your desktop screen :)
 
 <p align="center">
-  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o%20de%20tela%20de%2010-01-2023%2013_04_22%20(online-video-cutter.com).gif" alt="animated"  />
+  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o%20de%20tela%20de%2028-01-2024%2016_33_13%20(online-video-cutter.com).gif"  />
 </p>
 
 <div align = "center">
