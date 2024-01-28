@@ -15,7 +15,7 @@ Any animation produced in JavaScript can be placed as wallpaper on the desktop. 
 Gif - Matrix animation that changes color when issuing a voice command
 </a></div>
 
-##ATUALIZAÇÃO
+## update
 </br>
 1. Now the code 'has voice capture'. By enabling microphone usage, you can perform the following voice commands:
 
