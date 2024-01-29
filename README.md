@@ -54,7 +54,7 @@ Considering that the user has his own animation produced and wants to use it as 
   
 If you want to upload this repository as a base, use the command in your linux terminal to download the repository to your computer:
 ```
-git clone https://github.com/JWchester/Live_Wallpaper-Effect-Matrix.git
+git clone https://github.com/JWchester/liveWallpaper-EffectMatrix.git
 ```
 Then create your own repository and add these files </br>
   
