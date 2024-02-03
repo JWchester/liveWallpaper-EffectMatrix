@@ -6,7 +6,7 @@ Any animation produced in JavaScript can be placed as wallpaper on the desktop. 
 </div> 
 
 <p align="center">
-  <img src="https://github.com/JWchester/liveWallpaper-EffectMatrix/blob/main/docs/Kali%20desktop.gif"  />
+  <img src="https://github.com/JWchester/liveWallpaper-EffectMatrix/blob/main/docs/Kali%20Web.gif"  />
 </p>
 
 
