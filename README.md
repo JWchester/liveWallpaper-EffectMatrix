@@ -70,7 +70,7 @@ Figura 2 - active repository site by github pages </div>
 	
 </br>
 
-Enabling github pages for your repository will be able to generate an online page like this: [Effect Matrix](https://jwchester.github.io/Live_Wallpaper-Effect-Matrix/)
+Enabling github pages for your repository will be able to generate an online page like this: [Effect Matrix](https://jwchester.github.io/liveWallpaper-EffectMatrix/)
 
 ### 3. activate wallpaper with Hidamari
 
