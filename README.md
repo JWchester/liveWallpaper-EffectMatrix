@@ -94,7 +94,7 @@ Figura 4 - Insert the web page that has the desired animation </div>
 Insert the Link of the web page you created. then press 'enter'. now, just enjoy your creation on your desktop screen :)
 
 <p align="center">
-  <img src="https://github.com/JWchester/Live_Wallpaper-Effect-Matrix/blob/main/docs/Grava%C3%A7%C3%A3o-de-tela-de-28-01-2024-15_47_34.gif"  />
+  <img src="https://github.com/JWchester/liveWallpaper-EffectMatrix/blob/main/docs/Kali%20desktop.gif"  />
 </p>
 
 <div align = "center">
